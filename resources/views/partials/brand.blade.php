@@ -1,0 +1,1 @@
+@auth <a class="brand" href="{{ auth()->user()->homeRoute() }}"><img src="{{ asset('img/logo.png') }}" alt="Surigao City seal"><span><b>EcoWatch</b><small>SURIGAO CITY</small></span></a> @else <a class="brand" href="{{ route('home') }}"><img src="{{ asset('img/logo.png') }}" alt="Surigao City seal"><span><b>EcoWatch</b><small>SURIGAO CITY</small></span></a> @endauth
